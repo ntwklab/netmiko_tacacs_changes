@@ -126,8 +126,6 @@ for cisco_device in device_list:
         error_ips.append(cisco_device["host"])
 
 
-print(configured_list)
-
 # Print IPs with errors
 if error_ips != []:
     for ip in error_ips:
